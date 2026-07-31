@@ -15,7 +15,7 @@ size=width,height=520,420
 
 #   screen is the surface where we draw everything
 screen=pygame.display.set_mode(size)
-pygame.display.set_caption("Space Escape")
+pygame.display.set_caption("Space Dodger")
 
 #   loading and playing the music
 pygame.mixer.music.load("sounds/space_sound.mp3")
