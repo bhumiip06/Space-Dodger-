@@ -18,11 +18,11 @@ screen=pygame.display.set_mode(size)
 pygame.display.set_caption("Space Dodger")
 
 #   loading and playing the music
-pygame.mixer.music.load("sounds/space_sound.mp3")
+pygame.mixer.music.load("sounds/space_sound.ogg")
 pygame.mixer.music.set_volume(0.5)
 pygame.mixer.music.play(-1) # loops forever the music keeps playing until the game closes
 
-crash_sound=pygame.mixer.Sound("sounds/crash.mp3") #    Sound is used for short effects
+crash_sound=pygame.mixer.Sound("sounds/crash.ogg") #    Sound is used for short effects
 crash_sound.set_volume(0.7)
 clock=pygame.time.Clock()
 #l  oading the player image
